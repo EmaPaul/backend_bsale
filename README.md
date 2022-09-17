@@ -36,3 +36,11 @@ a continuacion.
 <li><a href="https://backend-bsale-ft1519sw4-emapaul.vercel.app/product">Productos</a></li>
 <li><a href="https://backend-bsale-ft1519sw4-emapaul.vercel.app/category">Categorias</a></li>
 </ul>
+<h2>Repositorio del frontend</h2>
+<ul>
+<li><a href="https://github.com/EmaPaul/Frontend-Bsale">Frontend-Bsale</a></li>
+</ul>
+<h2>Linkedin</h2>
+<ul>
+<li><a href="https://www.linkedin.com/in/emmanuel-pa%C3%BAl-carrillo-carpio/">Linkedin</a></li>
+</ul>
