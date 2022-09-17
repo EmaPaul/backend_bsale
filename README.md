@@ -31,7 +31,7 @@ a continuacion.
 <li>Consultar los productos en la base de datos por nombre y por id.</li>
 </ul>
 
-<h2>Back Deployado></h2>
+<h2>Back Deployado</h2>
 <ul>
 <li><a href="https://backend-bsale-ft1519sw4-emapaul.vercel.app/product">Productos</a></li>
 <li><a href="https://backend-bsale-ft1519sw4-emapaul.vercel.app/category">Categorias</a></li>
