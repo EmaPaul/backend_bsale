@@ -1,8 +1,9 @@
+/*requeriendo el entorno de trabajo y a la coneccion de la base de datos */
 const express = require('express');
 const router = express.Router();
 const mysqlConnection = require('../db');
 
-
+/*ruta: productos*/
 router.get('/product', async (req, res)=>{
     const {name} = req.query;
     if(name!==undefined){
@@ -27,6 +28,7 @@ router.get('/product', async (req, res)=>{
     
 });
 
+/*ruta: productos por id */
 router.get('/product/:id',(req, res,next)=>{
     const {id}=req.params;
     mysqlConnection.query('SELECT * FROM product WHERE id = ?',[id],(err,rows)=>{
@@ -40,6 +42,7 @@ router.get('/product/:id',(req, res,next)=>{
     
 })
 
+/*ruta: categorias*/
 router.get('/category',(req,res)=>{
     mysqlConnection.query('SELECT * FROM category',(err,rows)=>{
         if(!err){

@@ -1,13 +1,20 @@
+// requiriendo el entorno de trabajo
 const express = require('express')
 const app = express();
+
+/*requiriendo cors*/
 const cors = require('cors')
 
+/*Configurando el puerto*/
 app.set('port',process.env.PORT || 3000);
 
+/*Middleware*/
 app.use(express.json());
 
+/*Rutas*/
 app.use(require('./src/routes/product'))
 
+/*Configurando el cors*/
 app.use(cors());
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
@@ -17,6 +24,7 @@ app.use((req, res, next) => {
     next();
 });
 
+/*Levantando el servidor*/
 app.listen(app.get('port'), ()=>{ 
     console.log("Server on port", app.get('port'))
 })
