@@ -9,6 +9,8 @@
 </li>
 <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width="100px"/></li>
 <h5>mysql :<span> Sistema de gestión de bases de datos relacional.</span></h5>
+<li><img src="https://res.cloudinary.com/dltjb3yhc/image/upload/v1661814033/skills/nodejs_ohaso2.png" width="100px"/></li>
+<h5>Node js :<span> Entorno de ejecucion para javascript construido con el motor v8 de Chrome.</span></h5>
 </ul>
 <br/>
 Las llamadas a la base de datos se realizan a traves de peticiones HTTP, para lograr que la informacion se vea en el front, algunas de las caracteristicas las veremos
@@ -16,11 +18,11 @@ a continuacion.
 
 <h2>Caracteristicas</h2>
 <ul>
-<li> Coneccion a la base de datos</li>
-<li> Configuracion de express</li>
-<li> Configuracion de las variables de entorno en un archivo .env </li>
-<li> Configuracion de las rutas que traen la informacion de la base de datos</li>
-<li> Configuraciones para el deployado en un archivo vercel.json</li>
+<li> Coneccion a la base de datos.</li>
+<li> Configuracion de express.</li>
+<li> Configuracion de las variables de entorno en un archivo .env .</li>
+<li> Configuracion de las rutas que traen la informacion de la base de datos.</li>
+<li> Configuraciones para el deployado en un archivo vercel.json .</li>
 </ul>
 
 <h2>Operaciones</h2>
