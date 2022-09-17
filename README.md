@@ -1,4 +1,4 @@
-<h1>#Backend_bsale</h1>
+<h1>Backend_bsale</h1>
 <p>Para realizar el back de este se proyecto utilizo las siguientes Tecnologias:</p>
 <ul>
 <li><img src="https://res.cloudinary.com/dltjb3yhc/image/upload/v1661814034/skills/icono_js_geaon9.png" width="100px"/>
